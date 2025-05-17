@@ -61,3 +61,23 @@ console.log(xyz, typeof xyz); // 123n , bigint
 let abc = Symbol("value");
 
 console.log(abc, typeof abc); // Symbol(value) , 'symbol'
+
+// practice
+
+function createProduct(title, rating, price, offer, isDeal) {
+  return {
+    title,
+    rating,
+    price,
+    offer,
+    isDeal,
+  };
+}
+
+const product = createProduct("Laptop", 4.2, 2200, 10, true);
+
+console.log(product);
+
+console.log(product.price);
+
+console.log(typeof product["rating"]);
