@@ -81,3 +81,31 @@ console.log(product);
 console.log(product.price);
 
 console.log(typeof product["rating"]);
+
+// INFO: Symbol variable
+
+const var1 = Symbol();
+
+console.log(var1);
+
+const var2 = Symbol("Variable 1");
+const var3 = Symbol("Variable 1");
+
+console.log(var2);
+console.log(var2.description); // Variable 1
+
+console.log(var2 === var3); // false (each symbol is unique)
+
+console.log(var2.description === var3.description); //true
+
+// Symbol as object's key
+
+const user = {};
+
+const id = Symbol("userId");
+
+user[id] = 101;
+
+console.log(user); // { Symbol(userId):101}
+
+user[Symbol("userID")] = "12qusb45fjdn"; // no conflict between both keys
