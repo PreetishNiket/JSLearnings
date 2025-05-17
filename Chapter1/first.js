@@ -45,3 +45,19 @@ const PI = 3.14;
 // PI = 314;  // ERROR: Assignment to constant variable (uncaught TypeError)
 
 console.log(PI);
+
+// Data types
+
+//number, string, boolean, undefined, null( absence of object) , BigInt, Symbol
+
+let x = null;
+
+console.log(x, typeof x); // null , 'object'
+
+let xyz = BigInt("123");
+
+console.log(xyz, typeof xyz); // 123n , bigint
+
+let abc = Symbol("value");
+
+console.log(abc, typeof abc); // Symbol(value) , 'symbol'
