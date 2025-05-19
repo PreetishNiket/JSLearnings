@@ -70,9 +70,9 @@ for (let i = 0; i <= limit; i++) {
 //   a++;
 // } while (a <= input);
 
-//game
+// GAME Question
 
-let userInput = prompt("How much you love Sejal?");
+// let userInput = prompt("How much you love Sejal?");
 
 let random = "infinite";
 
