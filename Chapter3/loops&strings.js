@@ -74,10 +74,12 @@ for (let i = 0; i <= limit; i++) {
 
 // let userInput = prompt("How much you love Sejal?");
 
-let random = "infinite";
+// let random = "infinite";
 
-while (userInput !== random) {
-  userInput = prompt("Wrong answer kitnah karta hai , dobara soch");
-}
+// while (userInput !== random) {
+//   userInput = prompt("Wrong answer kitnah karta hai , dobara soch");
+// }
 
-console.log("Congrats!! , itnah hi kario but kya woh karti hai? hehe");
+// console.log("Congrats!! , itnah hi kario but kya woh karti hai? hehe");
+
+// STRINGS
